@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: lightyellow;
+            font-family: Arial;
+        }
+
+        h2 {
+            color: green;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .roll {
+            color: blue;
+        }
+
+        .name {
+            color: brown;
+        }
+
+        .dept {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Student Details</h2>
+    <p class="roll">Roll No: 101</p>
+    <p class="name">Name: Asrar</p>
+    <p class="dept">Department: CSE</p>
+
+</body>
+</html>
