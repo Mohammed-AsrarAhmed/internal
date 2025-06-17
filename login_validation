@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<script language="javascript">
+		function validate()
+		{	
+			var user=document.f1.t1.value;
+			var pass=document.f1.p1.value
+			if((user=="MVSREC")&&(pass=="IOT"))
+			{
+				window.alert("Login successfull");
+			}
+			else
+			{
+				window.alert("Login Failed");
+			}
+		}
+		</script>
+	</head>
+
+	<body>
+		<form name="f1">
+			<table border="5" bgcolor="pink" align="center">
+				<tr>
+					<td>UserID</td>
+					<td><input type="text" name="t1"></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input type="password" name="p1"></td>
+				</tr>
+				<tr>
+					<td><input type="button" value="LOGIN" onClick="validate()"></td>
+					<td><input type="reset" value="CLEAR"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
